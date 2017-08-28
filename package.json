@@ -1,0 +1,21 @@
+{
+  "name": "DailyProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon login.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5",
+    "nodemon": "^1.11.0"
+  }
+}

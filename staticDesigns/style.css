@@ -1,0 +1,53 @@
+body{
+  box-sizing: border-box;
+  font-family: Arial;
+  margin: 0 auto;
+}
+
+.c-header{
+  padding: 20px
+}
+
+.c-header p{
+  margin: 0;
+  padding: 0 20px;
+}
+
+.f-header{
+  color: white;
+}
+
+.s-header{
+  background-color: #1c0b00;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.btnLogout{
+  color: white;
+  background-color: #1c0b00;
+  border: none;
+  border-radius: 20px;
+  margin: 0 10px;
+  outline: none;
+  padding: 4px 10px;
+  position: relative;
+    bottom: 3px;
+}
+
+.btnLogout:hover{
+  color: black;
+  background: white;
+  transition: 0.4s;
+}
+
+.c-mainContent{
+  margin: 10px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
